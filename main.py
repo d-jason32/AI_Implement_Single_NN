@@ -10,13 +10,14 @@ Train the algorithm with 20 data units and run the epoch for 100000 iterations.
 
 Please provide your documentation for the implementation 
 '''
-
-
-
 def main():
+
+    # Add the 20 data units
     x0 = [1, 2,3,4,5,6,7,8,9,10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
     x1 = [5.2, 8.4, 11.2 , 14.4, 17.2, 20.4, 23.2, 26.4, 29.2, 32.4, 35.2, 38.4, 41.2, 44.4, 47.4, 50.2, 53.4, 56.2, 59.3, 62.2 ]
     # Expected outputs
+    # 0 means the point is below the expected
+    # 1 means the point is above the expected
     y = [0, 1, 0, 1, 0, 1, 0, 1, 0, 1,0, 1, 0, 1, 0, 1, 0, 1, 0, 1]
 
     # Initialize weights and biases

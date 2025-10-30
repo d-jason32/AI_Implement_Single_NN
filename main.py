@@ -13,8 +13,8 @@ Please provide your documentation for the implementation
 def main():
 
     # Add the 20 data units
-    x0 = [1, 2,3,4,5,6,7,8,9,10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
-    x1 = [5.2, 8.4, 11.2 , 14.4, 17.2, 20.4, 23.2, 26.4, 29.2, 32.4, 35.2, 38.4, 41.2, 44.4, 47.4, 50.2, 53.4, 56.2, 59.3, 62.2 ]
+    x0 = [1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5]
+    x1 = [5.2, 6.9, 8.2 , 9.9, 11.2, 12.9, 14.2, 15.8, 17.2, 18.9, 20.2, 21.9, 23.2, 24.9, 26.2, 27.9, 29.2, 30.9, 32.2, 33.9 ]
     # Expected outputs
     # 0 means the point is below the expected
     # 1 means the point is above the expected
